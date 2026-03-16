@@ -90,7 +90,7 @@ async def deathnote(ctx, miembro: discord.Member):
 
    await ctx.send(f"{miembro.mention}" f"{muertesrandom}")
 
-
+@bot.command()
 async def suma(ctx, a: int, b: int):
 
     resultado = a + b
