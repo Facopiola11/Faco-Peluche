@@ -97,6 +97,8 @@ async def suma(ctx, a: int, b: int):
 
     await ctx.send("Pensando...")
     
+    await asyncio.sleep(5)
+    
     if resultado == 0:
         await ctx.send("No se puede sumar 0 + 0 tontito jijijijij")
     else :
