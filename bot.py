@@ -107,6 +107,18 @@ async def deathnote(ctx, miembro: discord.Member):
 
    await ctx.send(f"{miembro.mention}" f"{muertesrandom}")
 
+
+async def suma(ctx, a, b):
+    await ctx.send("Pensando...")
+    
+    await asyncio.sleep(5)
+
+    if a + b == 0:
+        await ctx.send("No se puede sumar 0 + 0 tontito jijijijij")
+    else :
+        await ctx.send(a + b)
+
+
 TOKEN = os.environ["TOKEN"]
 
 
